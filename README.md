@@ -13,11 +13,24 @@
 שלב 4 
 יצירת תיקית בשם .github/workflow תוך שימוש בובץ מסוג yml(ניתן לגדיר כקובץ הגדרות למשחב) שבעזרתו מתבצע חיבור לgithub action 
 האוטומציה תרוץ בעזרת הפודות- ![alt text](image-5.png)
-שלב 5- בידקת הCI והקרסתו
-שבירת הYML בעזרת שבירת הזחה ![alt text](image-8.png)
+שלב 5-
+ בידקת הCI והקרסת ושבירת הYML בעזרת שבירת הזחה ![alt text](image-8.png)
 תוצאה -![alt text](image-9.png)
 החזרת syntx תקינה -![](image-10.png)
 שלב 6 
 יצירת אוטומצית CD לטובת פריסת קוד!
 [alt text](image-11.png) ![alt text](image-12.png)
+חלק ב
+כתיבת הקוד במשימה בשילוב של ספריות שונות 
+![alt tex   t](image-14.png)
+שלב 8
+הוספת פקודת ה pip install לDOCKERFILE לטובת יצירת אוטומציה להתקנת הספריות הרלוונטיות
+![alt text](image-15.png)
+![alt text](image-16.png)
+שלב 9 
+כתיבת compose לטובת הרצת שני קונטיינרים במקביל
+![alt text](image-17.png)
+שלב -10 
+הרצת האפליציה- חיבור השרתים עם הDB והרמת האפליקציה
+![alt text](image-13.png)
 
