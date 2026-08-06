@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on: [push]
 
@@ -11,3 +11,6 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t hello-devops .
+       
+      - name: Deploy (run container)
+        run: docker run hello-devops 
