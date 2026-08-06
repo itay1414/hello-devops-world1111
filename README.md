@@ -13,8 +13,8 @@
 שלב 4 
 יצירת תיקית בשם .github/workflow תוך שימוש בובץ מסוג yml(ניתן לגדיר כקובץ הגדרות למשחב) שבעזרתו מתבצע חיבור לgithub action 
 האוטומציה תרוץ בעזרת הפודות- ![alt text](image-5.png)
-שלב 5-
- בידקת הCI והקרסת ושבירת הYML בעזרת שבירת הזחה ![alt text](image-8.png)
+שלב 5
+בידקת הCI והקרסת ושבירת הYML בעזרת שבירת הזחה ![alt text](image-8.png)
 תוצאה -![alt text](image-9.png)
 החזרת syntx תקינה -![](image-10.png)
 שלב 6 
