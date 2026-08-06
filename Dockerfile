@@ -5,4 +5,4 @@ WORKDIR /app
 ##העתקת תוכן האפליקציה##
 COPY app.py . 
 ##הגדרת הפקודה שתריץ את הקונטיינר שהאפלקציה תעלה בשפת פייתון##
-CMD ["python", "app.py"]
+CMD ["python"git  "app.py"]
