@@ -6,6 +6,10 @@
 יצירת קובץ app.py שמדפיס הודעת פתיחה- Hello DevOps World 
 ![alt text](image-1.png)
 שלב 3 
-נכתב dockerfile שעליו נבנתה תמונה והורץ קונטיינר
-![alt text](image-2.png)
-![alt text](image-3.png)
+כתיבת dockerfile שעליו תיבנה התמונה והרצת קונטייר דרך פקודת docker run
+![alt text](image-2.png)- ביצוע "צילום למסך" לטובת שמירת הקוד במידה ונרצה לחזור אילו
+![alt text](image-3.png)-תוכן ה dockerfile
+![alt text](image-4.png)- הרצת האפליקציה
+שלב 4 
+יצירת תיקית בשם .github/workflow תוך שימוש בובץ מסוג yml(ניתן לגדיר כקובץ הגדרות למשחב) שבעזרתו מתבצע חיבור לgithub action 
+האוטומציה תרוץ בעזרת הפודות- 
