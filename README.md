@@ -17,4 +17,7 @@
 שבירת הYML בעזרת שבירת הזחה ![alt text](image-8.png)
 תוצאה -![alt text](image-9.png)
 החזרת syntx תקינה -![](image-10.png)
+שלב 6 
+יצירת אוטומצית CD לטובת פריסת קוד!
+[alt text](image-11.png) ![alt text](image-12.png)
 
