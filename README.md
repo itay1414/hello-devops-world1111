@@ -12,4 +12,8 @@
 ![alt text](image-4.png)- הרצת האפליקציה
 שלב 4 
 יצירת תיקית בשם .github/workflow תוך שימוש בובץ מסוג yml(ניתן לגדיר כקובץ הגדרות למשחב) שבעזרתו מתבצע חיבור לgithub action 
-האוטומציה תרוץ בעזרת הפודות- ![a text](image-5.png)
+האוטומציה תרוץ בעזרת הפודות- ![alt text](image-5.png)
+שלב 5- בידקת הCI והקרסה
+שבירת הYML בעזרת שבירת הזחה ![alt text](image-8.png)
+תוצאה -![alt text](image-9.png)
+
