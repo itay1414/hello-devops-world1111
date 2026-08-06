@@ -33,4 +33,3 @@
 שלב -10 
 הרצת האפליציה- חיבור השרתים עם הDB והרמת האפליקציה
 ![alt text](image-13.png)
-This change is only for testing the CI pipeline.This change is only for testing the CI pipeline.This change is only for testing the CI pipeline.
