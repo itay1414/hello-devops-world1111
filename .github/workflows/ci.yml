@@ -11,6 +11,15 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t hello-devops .
-       
-      - name: Deploy (run container)
-        run: docker run hello-devops 
+
+      - name: Start containers
+        run: docker compose up -d
+
+      - name: Wait for app to be ready
+        run: sleep 5
+
+      - name: Test the app
+        run: curl --fail http://localhost:5000
+
+      - name: Stop containers
+        run: docker compose down
