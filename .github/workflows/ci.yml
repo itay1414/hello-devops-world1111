@@ -9,17 +9,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build Docker image
+      - name: Build Docker image        ## CI - בדיקת build תקין
         run: docker build -t hello-devops .
 
-      - name: Start containers
+      - name: Start containers          ## CI - הרמה זמנית לבדיקה
         run: docker compose up -d
 
       - name: Wait for app to be ready
         run: sleep 5
 
-      - name: Test the app
+      - name: Test the app              ## CI - בדיקה אמיתית שהשרת עונה
         run: curl --fail http://localhost:5000
 
-      - name: Stop containers
+      - name: Stop test containers      ## סוגרים את סביבת הבדיקה
         run: docker compose down
+
+      - name: Deploy application        ## CD - "פריסה" מחדש, כאילו לסביבה חיה
+        run: docker compose up -d

@@ -11,9 +11,9 @@ r = redis.Redis(host='redis', port=6379, decode_responses=True)   ##יצירת �
 def home():
     counter = r.get('counter')   ##פנייה למאגר להבין מה הערך של קאונטר##
     if counter is None:   ##אם עדיין אין שום ערך שמור (פעם ראשונה, לפני שלחצו על משהו)##
-        counter = 0   ##ברירת מחדל - מתחילים מ-0##
+        counter = 0   ##השוואת המשתנה ל0##
     return f"Num Counter: {counter} <br> <a href='/PLUS'><button>+</button></a> <a href='/MINUS'><button>-</button></a>"   
-    ##מחזיר HTML: מציג את הערך הנוכחי, ירידת שורה, וכפתורי + ו- שכל אחד מפנה לכתובת אחרת##
+    ##מחזיר HTML: מציג את הערך של המשתנה, ירידת שורה, וכפתורי + ו- שכל אחד מפנה לכתובת אחרת##
 
 @app.route('/PLUS')   ##decorator: כשמישהו פונה ל-'/PLUS' (לחיצה על כפתור +), תריץ את increment##
 def increment():
