@@ -2,7 +2,7 @@
 from flask import Flask   ## בניית שרת FLASK מתוך ספריית FLASK##
 import redis   ##ייבוא ספריית RDIS לטובת התקקשרות עם השרת##
 
-print("Hello, DevOps world V2")   ##הדפסה מהתרגיל הראשון##
+print("Hello, DevOps world V2 appel paylalalal")   ##הדפסה מהתרגיל הראשון##
 
 app = Flask(__name__)   ##יצירת אובייקט וקישור לשרת##
 
